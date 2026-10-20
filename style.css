@@ -1,0 +1,32 @@
+/* Custom Stylesheet SPMB */
+
+/* Pola background lembut pada Hero Section */
+.hero-pattern {
+    background-image: radial-gradient(#cbd5e1 1.2px, transparent 1.2px);
+    background-size: 24px 24px;
+}
+
+/* Memastikan tulisan input terbaca tajam */
+input, select, textarea {
+    color: #0f172a !important; /* Slate 900 */
+    background-color: #ffffff !important;
+}
+
+input::placeholder {
+    color: #94a3b8 !important; /* Slate 400 */
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+    background: #94a3b8;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
